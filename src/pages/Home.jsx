@@ -4,7 +4,7 @@ import Hero from '../Componets/Hero.jsx'
 import WhyClassicCargo from '../Componets/WhyClassicCargo.jsx'
 import WhyCargo2 from '../Componets/WhyCargo2.jsx'
 import Services from '../Componets/Services.jsx'
-import Footer from '../Componets/footer.jsx'
+import Footer from '../Componets/Footer.jsx'
 
 const Home = () => {
   return (
