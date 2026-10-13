@@ -1,0 +1,37 @@
+/* @font-face{
+    font-family: Anta;
+    src: url("../assets/fonts/Anta-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family:lato;
+    src: url("../assets/fonts/Lato-Bold.ttf") format("truetype");
+} */
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+@theme{
+    --font-Anta: Anta;
+    --font-Lato: Lato;
+}
+
+@keyframes appear{
+    from{
+        opacity:0;
+        transform:translateY(100px)
+    }to{
+        opacity:1;
+    }
+}
+.scroll-animate{
+    animation:appear linear;
+    animation-timeline:view();
+    animation-range:entry 0% cover 40%;
+
+}
+
+
+
+
+
