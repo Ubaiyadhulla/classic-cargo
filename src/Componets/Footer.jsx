@@ -27,7 +27,7 @@ const Footer = () => {
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Chat with us on WhatsApp"
-  className="inline-flex items-center justify-center mt-8 w-14http://localhost:5173/ h-14 bg-[#25D366] text-white rounded-full hover:bg-[#1DA851] hover:scale-110 transition-all duration-300 shadow-lg"
+  className="inline-flex items-center justify-center mt-8 w-14 h-14 bg-[#25D366] text-white rounded-full hover:bg-[#1DA851] hover:scale-110 transition-all duration-300 shadow-lg"
 >
   <BsWhatsapp className="text-3xl" />
   
