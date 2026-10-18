@@ -12,7 +12,7 @@ const WhyCargo2 = () => {
         <div className='flex w-full justify-around'>
             <div  className='flex flex-col gap-2 md:gap-4 lg:*:gap-4 '>
             <div className='flex items-center gap-2 md:gap-4 lg:*:gap-4 font-Anta'>
-               <RiTargetLine  size={50}/>
+               <RiTargetLine  size={40}/>
                 <div className='h-9 w-2 bg-[#F59E0B] '></div>
                 <h2 className='text-3xl text-[#F59E0B]'>10 +</h2>
             </div>
@@ -22,7 +22,7 @@ const WhyCargo2 = () => {
             <div className='flex flex-col gap-2 md:gap-4 lg:*:gap-4 '>
             <div className='flex items-center gap-2 md:gap-4 lg:*:gap-4 font-Anta'>
                 
-                 <BiWorld  size={50}/>
+                 <BiWorld  size={40}/>
                 <div className='h-9 w-2 bg-[#F59E0B] '></div>
                 <h2 className='text-3xl text-[#F59E0B]'>110 +</h2>
             </div>
