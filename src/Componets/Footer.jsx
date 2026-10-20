@@ -33,7 +33,7 @@ const Footer = () => {
   
 </a>
 
-          </div>git add src/Componets/Footer.jsx
+          </div>
 
 
           {/* Quick Links */}
