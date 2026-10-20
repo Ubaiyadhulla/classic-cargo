@@ -16,7 +16,8 @@ const Hero = () => {
 
   return (
     <div className='flex w-full justify-center items-center md:mt-15 '>
-      <div className='w-[80%] md:my-6 my-5 lg:my-10 h-[550px]  relative rounded-2xl overflow-hidden '>
+      <div className='w-full md:w-[90%] lg:w-[80%]
+h-[500px] sm:h-[520px] md:h-[550px] lg:h-[600px] md:my-6 my-5 lg:my-10   relative rounded-2xl overflow-hidden '>
         <img className='w-full h-full object-cover' src={slides[currentSlide].image} alt="Hero Image" />
         <div className='absolute inset-y-0 left-0 w-full md:w-[75%] bg-gradient-to-r from-black/70 via-black/35 to-transparent'></div>
         <div className='z-10 absolute top-0 left-0 w-full md:w-[70%] lg:w-[50%] h-full flex flex-col justify-center gap-5 px-5 md:px-10'>
